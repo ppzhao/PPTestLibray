@@ -7,8 +7,8 @@ android {
         applicationId "com.pp.test.library"
         minSdkVersion 15
         targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -28,6 +28,6 @@ dependencies {
     compile 'com.android.support:design:26.+'
     testCompile 'junit:junit:4.12'
     //    compile project (':library')
-//    compile project(':library')
-    compile 'com.github.ppzhao:PPTestLibrary:v1.0'
+    compile project(':library')
+//    compile 'com.github.ppzhao:PPTestLibrary:v1.1'
 }
