@@ -28,5 +28,6 @@ dependencies {
     compile 'com.android.support:design:26.+'
     testCompile 'junit:junit:4.12'
     //    compile project (':library')
-    compile project(':library')
+//    compile project(':library')
+    compile 'com.github.ppzhao:PPTestLibrary:v1.0'
 }
